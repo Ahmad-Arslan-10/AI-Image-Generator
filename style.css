@@ -50,6 +50,10 @@ background: var(--color-card);
 box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
+body.dark-theme .container{
+ border: 1px solid var(--color-border);
+}
+
 .container::before{
   content: "";  
   position: absolute;
@@ -203,6 +207,7 @@ box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
  outline: none;
  height: 100%;
  appearance: none;
+ color: var(--color-text);
 }
 
 .prompt-actions .custom-select:is(:focus, :hover){
